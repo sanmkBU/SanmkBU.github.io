@@ -1,33 +1,102 @@
-.name p {
-    font-size: 20px;
-    font-size: Roboto;
-}
-
-img,p, h1, h2, .divider {
-    width: 100%;
-	max-width: 600px;
-    margin-left: auto;
-	margin-right: auto;
+body {
+    background-color: #ffffff;
+    font-family: 'Arimo', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
 img {
     display: block;
-    padding: 15px 0px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-p {
-	font-size: 18px;
-	line-height: 1.4;
-    font-family: "Crimson Text";
+.second-image, .third-image {
+    width: 70%; /* Smaller width than the first image */
+    margin: auto; /* Center the image */
 }
 
-h1, h2 {
-    font-family: "Roboto";
+h1 {
+    background-color: #005258;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #055E68; /* Ensuring consistency in styling for h2 and h3 */
 }
 
 .divider {
+    height: 4px;
+    background: linear-gradient(to right, #66a3a8 0%, #005258 100%);
+    margin: 20px 0;
+}
+
+.divider2 {
     height: 2px;
-    background-color: #0868ac;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background: linear-gradient(to right, #66a3a8 0%, #005258 100%);
+    margin: 20px 0;
+}
+
+.first-paragraph, .second-paragraph, .third-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: black;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author, .date {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.author {
+    font-size: 16px;
+    color: #1b8d95;
+}
+
+.date {
+    font-size: 14px;
+    color: #969696;
+}
+
+.fourth-image {
+    width: 100%; /* Adjusted for the unique dimensions */
+    max-width: 1200px; /* Maximum width to maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image */
+}
+
+.fourth-paragraph, .fifth-paragraph, .sixth-paragraph, .last-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: black;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.source-link {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #0f5132;
+    text-align: left;
+    margin-top: 20px;
 }
